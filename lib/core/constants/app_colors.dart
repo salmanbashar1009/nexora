@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class AppColors{
 
   /// App default color
-  static const Color primaryColor = Color(0xFFB8EB00);
+  static const Color appBlue = Color(0xFF3396FF);
+  static const Color appWhite = Color(0xFFFFFFFF);
+  static const Color appBlack = Color(0xFF000000);
 
   /// body text color
   static const Color bodyTextColor = Color(0xFFCACACB);
@@ -33,7 +35,6 @@ class AppColors{
   static const Color white6 = Color.fromRGBO(246, 246, 246, 0.06); /// used for border
   static const Color white20 = Color.fromRGBO(246, 246, 246, 0.2);
   static const Color white30 = Color.fromRGBO(246, 246, 246, 0.3);
-  static const Color white18 = Color.fromRGBO(246, 246, 246, 0.18);
   static const Color white2 = Color.fromRGBO(246, 246, 246, 0.02);
   static const Color gradient5 = Color.fromRGBO(102, 102, 102, 0.05);
 

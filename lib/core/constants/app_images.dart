@@ -1,9 +1,10 @@
 class AppImages{
   /// App logo
-  static const String appLogo = "assets/images/onboarding/logo.png";
+  static const String appLogo = "assets/images/appLogo.png";
 
   /// Onboarding images
-  static const String onboardingBg = "assets/images/onboarding/bg.png";
+  static const String onboardingBg = "assets/images/bgImg.png";
+  static const String qrCode = "assets/images/qr.png";
 
   /// home
   static const String banner = "assets/images/home/banner.png";

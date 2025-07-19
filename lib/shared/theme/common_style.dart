@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../core/constants/app_colors.dart';
+
 
 
 class CommonStyle{
@@ -14,7 +16,7 @@ class CommonStyle{
           borderRadius: BorderRadius.circular(99)
       ),
       focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: AppColors.primaryColor),
+          borderSide: BorderSide(color: AppColors.appBlue),
           borderRadius: BorderRadius.circular(99)
       ),
       disabledBorder: OutlineInputBorder(

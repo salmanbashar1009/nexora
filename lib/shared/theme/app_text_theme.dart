@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:malooz/core/constant/app_colors.dart';
+
+import '../../core/constants/app_colors.dart';
 
 class AppTextTheme {
   static TextTheme get darkTextTheme => TextTheme(

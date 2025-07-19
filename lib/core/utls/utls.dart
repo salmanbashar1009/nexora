@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import '../constants/app_colors.dart';
 
 
 class Utils {
@@ -27,8 +30,8 @@ class Utils {
       child: ElevatedButton(
           onPressed: onPressed,
           style: ElevatedButton.styleFrom(
-              padding: AppPadding.padding(horizontal: 8,vertical: 4),
-              backgroundColor: backgroundColor ?? AppColors.primaryColor,
+
+              backgroundColor: backgroundColor ?? AppColors.white,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(borderRadius ?? 99))),
           child: Text(
@@ -54,14 +57,10 @@ class Utils {
       height: height,
       width: width ?? double.infinity,
       alignment: Alignment.center,
-      padding: AppPadding.padding(
-          horizontal: horizontalPadding ?? 16, vertical: verticalPadding ?? 0),
       decoration: BoxDecoration(
           color: AppColors.white5,
           border: Border.all(
-              color: isSelected == true
-                  ? AppColors.primaryColor
-                  : AppColors.white6),
+              color:  AppColors.white6),
           borderRadius: BorderRadius.circular(10)),
       child: child,
     );
